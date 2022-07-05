@@ -709,20 +709,18 @@ img {
 
 .inner-header__title {
   margin: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
   font-size: 60px;
   line-height: 78px;
 }
 
 .breadcrumbs {
-  position: relative;
-  top: 8px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 0;
   font-size: 16px;
 }
@@ -1069,7 +1067,7 @@ img {
   opacity: 0.3;
 }
 
-.sorting__select--price {
+.sorting__select--price {]
   min-width: 290px;
   margin-bottom: 8px;
 }
