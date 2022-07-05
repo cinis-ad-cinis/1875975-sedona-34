@@ -924,6 +924,10 @@ img {
   appearance: textfield;
 }
 
+.range__input::placeholder {
+  color: #ffffff;
+}
+
 .range__input:hover {
   border-color: rgba(255, 255, 255, 0.6);
 }
@@ -934,7 +938,7 @@ img {
   outline: 3px solid #81b3d2;
 }
 
-.range__input:not(:placeholder-shown) {
+.range__input:focus:not(:placeholder-shown) {
   background-color: #756257;
   outline: none;
   box-shadow: none;
