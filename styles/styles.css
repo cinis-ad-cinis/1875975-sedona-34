@@ -923,7 +923,7 @@ img {
 }
 
 .range__input::placeholder {
-  color: #ffffff;
+  color: rgba(242, 242, 242, 0.6);
 }
 
 .range__input:hover {
@@ -1155,6 +1155,7 @@ img {
   column-gap: 20px;
   row-gap: 16px;
   padding: 20px;
+  align-self: start;
 }
 
 .card__link-image {
